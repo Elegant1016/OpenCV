@@ -1,0 +1,3 @@
+queryset/testMaterial/bituTest.jpeg;0
+queryset/testMaterial/sandTest.jpeg;0
+queryset/testMaterial/gravelTest.jpeg;0

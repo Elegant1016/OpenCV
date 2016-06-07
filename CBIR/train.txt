@@ -1,0 +1,15 @@
+trainset/sand/sand2.jpeg;0
+trainset/sand/sand1.jpeg;0
+trainset/sand/sand3.jpeg;0
+trainset/sand/sand4.jpeg;0
+trainset/sand/sand5.jpeg;0
+trainset/gravel/gravel5.jpeg;1
+trainset/gravel/gravel1.jpeg;1
+trainset/gravel/gravel4.jpeg;1
+trainset/gravel/gravel2.jpeg;1
+trainset/gravel/gravel3.jpeg;1
+trainset/bitumin/bit1.jpeg;2
+trainset/bitumin/bit4.jpeg;2
+trainset/bitumin/bit3.jpeg;2
+trainset/bitumin/bit2.jpeg;2
+trainset/bitumin/bit5.jpeg;2
