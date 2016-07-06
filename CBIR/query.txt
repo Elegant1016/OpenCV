@@ -1,3 +1,5 @@
+queryset/testMaterial/IMG-20160702-WA0019.jpg;0
 queryset/testMaterial/bituTest.jpeg;0
+queryset/testMaterial/IMG-20160702-WA0024.jpg;0
 queryset/testMaterial/sandTest.jpeg;0
 queryset/testMaterial/gravelTest.jpeg;0

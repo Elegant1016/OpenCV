@@ -54,6 +54,10 @@ class SearchImage:
                 # Distance Metric to be used, these two Low score means good
                 score = cv2.compareHist(np.array(trainedHist, dtype=np.float32), np.array(queryHist, dtype=np.float32), cv2.HISTCMP_CHISQR)
                 results.append((self.addrImg[index], round(score, 3)))
+
+            #data = [('abc', 121),('qwe', 231),('pop', 148), ('gfh',221)]
+            #sorted(data, key=lambda x:x[1])
+            #sorted(data, key=lambda x:x[1], reverse=True)
             results = sorted(results, key=lambda score: score[1])
 
             self.results_all[queryImage] = results
@@ -61,10 +65,7 @@ class SearchImage:
             for image, score in results:
                 print("{} has score {}".format(image, score))
             cv2.imshow("query", img)
-            # cv2.imshow("result", cv2.imread(results[0][0]))
             cv2.imshow(str(results[0][1]), cv2.imread(results[0][0]))
-            # cv2.waitKey()
-            # cv2.imshow(str(results[0][1]), cv2.imread(results[1][0]))
             cv2.waitKey()
             cv2.destroyAllWindows()
 
