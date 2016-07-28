@@ -1,0 +1,127 @@
+{'queryset/testMaterial/sandTest.jpeg': 0, 'queryset/testMaterial/IMGWA0019.jpeg': 0, 'queryset/testMaterial/gravelTest.jpeg': 0, 'queryset/testMaterial/bituTest.jpeg': 0, 'queryset/testMaterial/sofwinres.jpeg': 0, 'queryset/testMaterial/IMGWA0024.jpeg': 0, 'queryset/testMaterial/outfile.jpeg': 0}
+Displaying scores for queryset/testMaterial/sandTest.jpeg ** 
+
+trainset/sand/sand4.jpeg has score 0.01
+trainset/sand/sand1.jpeg has score 0.025
+trainset/sand/sand5.jpeg has score 0.04
+trainset/gravel/ref7.jpeg has score 0.047
+trainset/bitumin/ref6.jpeg has score 0.065
+trainset/bitumin/ref5.jpeg has score 0.065
+trainset/bitumin/ref3.jpeg has score 0.067
+trainset/sand/sand2.jpeg has score 0.068
+trainset/bitumin/ref8.jpeg has score 0.076
+trainset/gravel/ref2.jpeg has score 0.096
+trainset/gravel/ref1.jpeg has score 0.108
+trainset/gravel/ref4.jpeg has score 0.108
+trainset/gravel/ref10.jpeg has score 0.111
+trainset/gravel/ref9.jpeg has score 0.13
+trainset/sand/sand3.jpeg has score 0.175
+trainset/gravel/ref11.jpeg has score 0.202
+Displaying scores for queryset/testMaterial/IMGWA0019.jpeg ** 
+
+trainset/gravel/ref9.jpeg has score 0.002
+trainset/gravel/ref10.jpeg has score 0.004
+trainset/gravel/ref1.jpeg has score 0.006
+trainset/gravel/ref4.jpeg has score 0.006
+trainset/gravel/ref2.jpeg has score 0.007
+trainset/gravel/ref11.jpeg has score 0.009
+trainset/sand/sand3.jpeg has score 0.048
+trainset/bitumin/ref3.jpeg has score 0.063
+trainset/bitumin/ref8.jpeg has score 0.067
+trainset/sand/sand1.jpeg has score 0.068
+trainset/bitumin/ref6.jpeg has score 0.08
+trainset/bitumin/ref5.jpeg has score 0.08
+trainset/sand/sand4.jpeg has score 0.107
+trainset/gravel/ref7.jpeg has score 0.147
+trainset/sand/sand5.jpeg has score 0.167
+trainset/sand/sand2.jpeg has score 0.196
+Displaying scores for queryset/testMaterial/gravelTest.jpeg ** 
+
+trainset/sand/sand2.jpeg has score 0.264
+trainset/sand/sand5.jpeg has score 0.272
+trainset/gravel/ref7.jpeg has score 0.605
+trainset/sand/sand4.jpeg has score 0.758
+trainset/sand/sand1.jpeg has score 1.744
+trainset/bitumin/ref6.jpeg has score 1.751
+trainset/bitumin/ref5.jpeg has score 1.751
+trainset/bitumin/ref3.jpeg has score 2.057
+trainset/bitumin/ref8.jpeg has score 2.066
+trainset/gravel/ref2.jpeg has score 2.663
+trainset/gravel/ref1.jpeg has score 2.953
+trainset/gravel/ref4.jpeg has score 2.953
+trainset/gravel/ref10.jpeg has score 3.12
+trainset/gravel/ref9.jpeg has score 3.586
+trainset/sand/sand3.jpeg has score 5.495
+trainset/gravel/ref11.jpeg has score 5.713
+Displaying scores for queryset/testMaterial/bituTest.jpeg ** 
+
+trainset/sand/sand4.jpeg has score 0.022
+trainset/bitumin/ref6.jpeg has score 0.036
+trainset/bitumin/ref5.jpeg has score 0.036
+trainset/gravel/ref7.jpeg has score 0.046
+trainset/sand/sand2.jpeg has score 0.046
+trainset/sand/sand5.jpeg has score 0.054
+trainset/bitumin/ref8.jpeg has score 0.062
+trainset/bitumin/ref3.jpeg has score 0.066
+trainset/sand/sand1.jpeg has score 0.086
+trainset/gravel/ref9.jpeg has score 0.212
+trainset/gravel/ref2.jpeg has score 0.213
+trainset/gravel/ref10.jpeg has score 0.229
+trainset/gravel/ref1.jpeg has score 0.232
+trainset/gravel/ref4.jpeg has score 0.232
+trainset/sand/sand3.jpeg has score 0.314
+trainset/gravel/ref11.jpeg has score 0.414
+Displaying scores for queryset/testMaterial/sofwinres.jpeg ** 
+
+trainset/bitumin/ref8.jpeg has score 3.451
+trainset/bitumin/ref3.jpeg has score 3.617
+trainset/bitumin/ref6.jpeg has score 4.138
+trainset/bitumin/ref5.jpeg has score 4.138
+trainset/gravel/ref9.jpeg has score 4.492
+trainset/gravel/ref7.jpeg has score 4.781
+trainset/gravel/ref10.jpeg has score 4.883
+trainset/sand/sand3.jpeg has score 4.984
+trainset/gravel/ref2.jpeg has score 5.003
+trainset/gravel/ref1.jpeg has score 5.01
+trainset/gravel/ref4.jpeg has score 5.01
+trainset/gravel/ref11.jpeg has score 5.048
+trainset/sand/sand1.jpeg has score 5.169
+trainset/sand/sand4.jpeg has score 5.741
+trainset/sand/sand5.jpeg has score 6.153
+trainset/sand/sand2.jpeg has score 6.296
+Displaying scores for queryset/testMaterial/IMGWA0024.jpeg ** 
+
+trainset/bitumin/ref6.jpeg has score 0.002
+trainset/bitumin/ref5.jpeg has score 0.002
+trainset/bitumin/ref8.jpeg has score 0.003
+trainset/bitumin/ref3.jpeg has score 0.005
+trainset/sand/sand4.jpeg has score 0.033
+trainset/sand/sand1.jpeg has score 0.037
+trainset/gravel/ref7.jpeg has score 0.061
+trainset/gravel/ref9.jpeg has score 0.076
+trainset/gravel/ref2.jpeg has score 0.087
+trainset/gravel/ref10.jpeg has score 0.088
+trainset/gravel/ref1.jpeg has score 0.089
+trainset/gravel/ref4.jpeg has score 0.089
+trainset/sand/sand5.jpeg has score 0.09
+trainset/sand/sand2.jpeg has score 0.094
+trainset/sand/sand3.jpeg has score 0.098
+trainset/gravel/ref11.jpeg has score 0.141
+Displaying scores for queryset/testMaterial/outfile.jpeg ** 
+
+trainset/bitumin/ref8.jpeg has score 3.551
+trainset/bitumin/ref3.jpeg has score 3.72
+trainset/bitumin/ref6.jpeg has score 4.254
+trainset/bitumin/ref5.jpeg has score 4.254
+trainset/gravel/ref9.jpeg has score 4.618
+trainset/gravel/ref7.jpeg has score 4.913
+trainset/gravel/ref10.jpeg has score 5.018
+trainset/sand/sand3.jpeg has score 5.122
+trainset/gravel/ref2.jpeg has score 5.141
+trainset/gravel/ref1.jpeg has score 5.148
+trainset/gravel/ref4.jpeg has score 5.148
+trainset/gravel/ref11.jpeg has score 5.186
+trainset/sand/sand1.jpeg has score 5.312
+trainset/sand/sand4.jpeg has score 5.897
+trainset/sand/sand5.jpeg has score 6.318
+trainset/sand/sand2.jpeg has score 6.465

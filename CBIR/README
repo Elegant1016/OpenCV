@@ -7,9 +7,9 @@ python CreateCSV.py -t queryset -i query.txt
 
 Stage 2 : Run the LBP Algorithm
 
-python CalculateLBP.py -f train.txt
+python CalculateLBP.py -f train.txt -p params.txt
 
 
 Stage 3 : Get the Results
 
-python SearchImage.py
+python SearchImage.py -p params.txt

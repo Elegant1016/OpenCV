@@ -1,12 +1,12 @@
-# python CalculateLBP.py -f train.txt
+# python CalculateLBP.py -f train.txt -p params.txt
 # http://scikit-image.org/docs/dev/auto_examples/plot_local_binary_pattern.html
 
 import cv2
 import os
 from skimage.feature import local_binary_pattern
 from scipy.stats import itemfreq
-from sklearn.preprocessing import normalize
-import cvutils
+# from sklearn.preprocessing import normalize
+# import cvutils
 import csv
 from matplotlib import pyplot as plt
 from sklearn.externals import joblib
@@ -14,8 +14,9 @@ import numpy as np
 import argparse
 
 class CalculateLBP:
-    def __init__(self, fileName):
+    def __init__(self, fileName, paramFile):
         self.trainedTxt = fileName
+        self.paramTxt = paramFile
         self.trainDict = dict()
         self.lbpHistogram = []
         self.addrImg = []
@@ -30,13 +31,22 @@ class CalculateLBP:
 
 
     def calculateLBP(self):
+        paramList = list()
+        with open(self.paramTxt) as f:
+            for line in f:
+                paramList.append(int(line.strip()))
+        print(paramList)
         for image in self.trainDict.iterkeys():
             print(image)
             img = cv2.imread(image)
             imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-            radius = 3
-            noPoints = 8 * radius
+            # radius = 3
+            # noPoints = 8 * radius
+            radius = paramList[0]
+            noPoints = paramList[1] * radius
+            print(radius)
+            print(noPoints)
             lbpImage = local_binary_pattern(imgGray, noPoints, radius, method='uniform')
 
             # Calculate the histogram
@@ -77,9 +87,11 @@ class CalculateLBP:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-f", "--file", required=True, help="Path to the file that contains the indexs")
+    ap.add_argument("-p", "--params", required=True, help="Path to store all the configurable variables")
     args = vars(ap.parse_args())
+    params = args["params"]
 
-    lbp = CalculateLBP(args["file"])
+    lbp = CalculateLBP(args["file"], params)
     lbp.readTrainData()
     lbp.calculateLBP()
     lbp.showTrainingSet()
