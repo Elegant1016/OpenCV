@@ -1,0 +1,19 @@
+How to run CBIR
+
+Stage 1 : Prepare the Training
+
+python CreateCSV.py -t trainset -i train.txt
+python CreateCSV.py -t queryset -i query.txt
+
+Stage 2 : Run the LBP Algorithm
+
+python CalculateLBP.py -f train.txt -p params.txt
+
+
+Stage 3 : Get the Results
+
+python CropQueryImages.py -f query.txt
+
+python SearchImage.py -p params.txt
+
+
